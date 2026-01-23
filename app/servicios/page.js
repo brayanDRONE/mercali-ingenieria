@@ -83,10 +83,10 @@ export default function Servicios() {
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="inline-block bg-black/60 backdrop-blur-sm px-12 py-8 rounded-2xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white text-center">
               Nuestros Servicios
             </h1>
-            <p className="text-xl text-white max-w-3xl">
+            <p className="text-xl text-white max-w-3xl text-center">
               Soluciones integrales en ingeniería eléctrica para industrias, comercios y proyectos de infraestructura
             </p>
           </div>
