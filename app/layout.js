@@ -13,6 +13,11 @@ export const metadata = {
   },
   description: 'Empresa líder en ingeniería eléctrica en Graneros, Chile. Ofrecemos diseño de sistemas eléctricos, mantenimiento industrial, optimización energética y proyectos eléctricos certificados para empresas.',
   keywords: ['ingeniería eléctrica', 'proyectos eléctricos', 'mantención eléctrica', 'Graneros', 'Chile', 'sistemas eléctricos industriales', 'optimización energética', 'certificación eléctrica', 'instalaciones eléctricas', 'tableros eléctricos', 'automatización industrial'],
+  icons: {
+    icon: '/logo_icono.jpeg',
+    shortcut: '/logo_icono.jpeg',
+    apple: '/logo_icono.jpeg',
+  },
   authors: [{ name: 'Mercali Ingeniería' }],
   creator: 'Mercali Ingeniería',
   publisher: 'Mercali Ingeniería',
