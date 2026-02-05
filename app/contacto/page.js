@@ -1,6 +1,21 @@
 'use client'
 import { useState } from 'react'
 
+export const metadata = {
+  title: 'Contacto - Cotiza tu Proyecto Eléctrico',
+  description: 'Contáctanos para cotizar tu proyecto eléctrico. Ubicados en Pedrero Lote A1 Número 06, Graneros, Chile. Tel: +56 9 99824057. Respuesta rápida y profesional.',
+  keywords: ['contacto ingeniería eléctrica', 'cotización proyectos eléctricos', 'Graneros Chile', 'mercali contacto'],
+  openGraph: {
+    title: 'Contacto | Mercali Ingeniería',
+    description: 'Contáctanos para cotizar tu proyecto eléctrico en Graneros, Chile.',
+    url: 'https://www.mercaliingenieria.com/contacto',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://www.mercaliingenieria.com/contacto',
+  },
+}
+
 export default function Contacto() {
   const [formData, setFormData] = useState({
     nombre: '',

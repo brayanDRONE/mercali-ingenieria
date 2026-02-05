@@ -1,3 +1,18 @@
+export const metadata = {
+  title: 'Servicios de Ingeniería Eléctrica Industrial',
+  description: 'Diseño de sistemas eléctricos, mantenimiento industrial, mediciones eléctricas, termografía, optimización energética y proyectos eléctricos certificados en Graneros, Chile.',
+  keywords: ['diseño sistemas eléctricos', 'mantenimiento eléctrico industrial', 'termografía', 'mediciones eléctricas', 'optimización energética', 'certificación SEC', 'calidad de energía'],
+  openGraph: {
+    title: 'Servicios de Ingeniería Eléctrica Industrial | Mercali Ingeniería',
+    description: 'Diseño, mantenimiento, mediciones y optimización de sistemas eléctricos industriales en Chile.',
+    url: 'https://www.mercaliingenieria.com/servicios',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://www.mercaliingenieria.com/servicios',
+  },
+}
+
 export default function Servicios() {
   const servicios = [
     {

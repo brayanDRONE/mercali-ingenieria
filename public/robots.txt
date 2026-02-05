@@ -1,0 +1,30 @@
+# robots.txt para Mercali Ingeniería
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.mercaliingenieria.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Permitir indexación de recursos importantes
+Allow: /servicios
+Allow: /proyectos
+Allow: /contacto
+
+# Bloquear archivos innecesarios
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# User-agents específicos
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /

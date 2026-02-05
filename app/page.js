@@ -1,6 +1,21 @@
 import Link from 'next/link'
 import ProvidersCarousel from './components/ProvidersCarousel'
 
+export const metadata = {
+  title: 'Inicio',
+  description: 'Mercali Ingeniería - Empresa líder en ingeniería eléctrica industrial y comercial en Graneros, Chile. Diseño de sistemas eléctricos, mantenimiento, mediciones, optimización energética y proyectos certificados.',
+  keywords: ['ingeniería eléctrica Chile', 'proyectos eléctricos industriales', 'mantenimiento eléctrico', 'diseño sistemas eléctricos', 'Graneros', 'Región de O\'Higgins'],
+  openGraph: {
+    title: 'Mercali Ingeniería - Soluciones en Ingeniería Eléctrica Industrial',
+    description: 'Empresa líder en ingeniería eléctrica en Graneros, Chile. Diseño, mantenimiento y optimización de sistemas eléctricos.',
+    url: 'https://www.mercaliingenieria.com',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://www.mercaliingenieria.com',
+  },
+}
+
 export default function Home() {
   const servicios = [
     {

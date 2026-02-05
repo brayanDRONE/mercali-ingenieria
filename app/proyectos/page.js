@@ -1,3 +1,18 @@
+export const metadata = {
+  title: 'Proyectos de Ingeniería Eléctrica Industrial',
+  description: 'Portafolio de proyectos eléctricos industriales realizados: reemplazo de variadores, sistemas de iluminación, tableros eléctricos y automatización industrial en Chile.',
+  keywords: ['proyectos eléctricos industriales', 'variadores de frecuencia', 'tableros eléctricos', 'iluminación industrial', 'automatización', 'powerflex'],
+  openGraph: {
+    title: 'Proyectos de Ingeniería Eléctrica Industrial | Mercali Ingeniería',
+    description: 'Descubre nuestros proyectos eléctricos industriales en plantas de alimentos, minería y manufactura.',
+    url: 'https://www.mercaliingenieria.com/proyectos',
+    type: 'website',
+  },
+  alternates: {
+    canonical: 'https://www.mercaliingenieria.com/proyectos',
+  },
+}
+
 export default function Proyectos() {
   const proyectos = [
     {
