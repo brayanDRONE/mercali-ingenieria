@@ -71,7 +71,7 @@ export default function Contacto() {
                   </div>
                   <div>
                     <h3 className="font-bold text-primary mb-1">Teléfono</h3>
-                    <p className="text-gray-600">+569 XXXX XXXX</p>
+                    <p className="text-gray-600">+56 (9) 99824057</p>
                   </div>
                 </div>
 
@@ -83,7 +83,8 @@ export default function Contacto() {
                   </div>
                   <div>
                     <h3 className="font-bold text-primary mb-1">Email</h3>
-                    <p className="text-gray-600">contacto@mercaliingenieria.cl</p>
+                    <p className="text-gray-600">mercaliingenieriaelectrica@gmail.com</p>
+                    <p className="text-gray-600">m.mercadol@mercaliingenieria.com</p>
                   </div>
                 </div>
 
@@ -96,7 +97,7 @@ export default function Contacto() {
                   </div>
                   <div>
                     <h3 className="font-bold text-primary mb-1">Dirección</h3>
-                    <p className="text-gray-600">Santiago, Chile</p>
+                    <p className="text-gray-600">Sor Teresa de los Andes 519, Graneros, Chile</p>
                   </div>
                 </div>
 
@@ -109,7 +110,7 @@ export default function Contacto() {
                   <div>
                     <h3 className="font-bold text-primary mb-1">WhatsApp</h3>
                     <a 
-                      href="https://wa.me/569XXXXXXXX" 
+                      href="https://wa.me/56999824057" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-green-600 hover:text-green-700 transition-smooth"

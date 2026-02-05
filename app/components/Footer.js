@@ -46,13 +46,19 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Contacto</h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <strong>Teléfono:</strong> +569 XXXX XXXX
+                <strong>Teléfono:</strong> +56 (9) 99824057
               </li>
               <li>
-                <strong>Email:</strong> contacto@mercaliingenieria.cl
+                <strong>Email:</strong>
+                <div className="mt-1">
+                  mercaliingenieriaelectrica@gmail.com
+                </div>
+                <div>
+                  m.mercadol@mercaliingenieria.com
+                </div>
               </li>
               <li>
-                <strong>Dirección:</strong> Santiago, Chile
+                <strong>Dirección:</strong> Sor Teresa de los Andes 519, Graneros, Chile
               </li>
             </ul>
           </div>

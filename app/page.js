@@ -1,26 +1,27 @@
 import Link from 'next/link'
+import ProvidersCarousel from './components/ProvidersCarousel'
 
 export default function Home() {
   const servicios = [
     {
-      title: 'Proyectos Eléctricos',
-      description: 'Diseño y ejecución de proyectos eléctricos industriales y comerciales de alta y baja tensión.',
+      title: 'Diseño de Sistemas Eléctricos',
+      description: 'Planos y certificaciones para sistemas eléctricos industriales y comerciales.',
       icon: '⚡',
     },
     {
-      title: 'Mantenimiento Industrial',
-      description: 'Servicio de mantenimiento preventivo y correctivo para instalaciones eléctricas industriales.',
+      title: 'Mantenimiento, Mediciones y Reparación',
+      description: 'Servicio integral de mantenimiento preventivo, mediciones eléctricas y reparaciones.',
       icon: '🔧',
     },
     {
-      title: 'Asesoría Técnica',
-      description: 'Consultoría especializada en eficiencia energética y normativa eléctrica vigente.',
-      icon: '📋',
+      title: 'Optimización Energética',
+      description: 'Análisis y mejora de la eficiencia energética para reducir costos operacionales.',
+      icon: '💡',
     },
     {
-      title: 'Automatización',
-      description: 'Implementación de sistemas de control y automatización industrial modernos.',
-      icon: '🤖',
+      title: 'Proyectos Destacados',
+      description: 'Soluciones personalizadas para proyectos de gran envergadura.',
+      icon: '🏗️',
     },
   ]
 
@@ -82,7 +83,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-primary mb-4">Nuestra Misión</h3>
               <p className="text-gray-600">
-                Proporcionar soluciones de ingeniería eléctrica innovadoras y confiables, garantizando la seguridad y eficiencia en cada proyecto que realizamos.
+                Ser el líder en soluciones de ingeniería eléctrica, brindando a nuestros clientes servicios de alta calidad.
               </p>
             </div>
 
@@ -109,12 +110,35 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-primary mb-4">Nuestra Visión</h3>
               <p className="text-gray-600">
-                Ser reconocidos como líderes en ingeniería eléctrica, destacando por nuestra excelencia técnica, compromiso con la innovación y satisfacción del cliente.
+                Convertirnos en el socio de confianza preferido en la industria de la ingeniería eléctrica.
               </p>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* Valores */}
+          <div className="mt-16 text-center">
+            <h3 className="text-3xl font-bold text-primary mb-8">Nuestros Valores</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                <div className="text-4xl mb-3">🤝</div>
+                <h4 className="font-bold text-primary">Compromiso</h4>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                <div className="text-4xl mb-3">⭐</div>
+                <h4 className="font-bold text-primary">Excelencia</h4>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                <div className="text-4xl mb-3">💡</div>
+                <h4 className="font-bold text-primary">Innovación</h4>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+                <div className="text-4xl mb-3">🛡️</div>
+                <h4 className="font-bold text-primary">Seguridad</h4>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
             {servicios.map((servicio, index) => (
               <div
                 key={index}
@@ -168,6 +192,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Carrusel de Proveedores */}
+      <ProvidersCarousel />
+
       {/* Experiencia y Ubicación Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -206,7 +233,7 @@ export default function Home() {
                   </svg>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Dirección</h3>
-                    <p className="text-gray-600">Santiago, Región Metropolitana, Chile</p>
+                    <p className="text-gray-600">Sor Teresa de los Andes 519, Graneros, Chile</p>
                   </div>
                 </div>
               </div>
@@ -301,7 +328,7 @@ export default function Home() {
               Contactar Ahora
             </Link>
             <a
-              href="https://wa.me/56982039177"
+              href="https://wa.me/56999824057"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg transition-smooth"
