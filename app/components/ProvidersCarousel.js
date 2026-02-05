@@ -56,7 +56,7 @@ export default function ProvidersCarousel() {
                 <img
                   src={provider}
                   alt={`Proveedor ${index + 1}`}
-                  className="max-w-[80%] max-h-[80%] object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+                  className="max-w-[80%] max-h-[80%] object-contain transition-all duration-300"
                 />
               </div>
             ))}
@@ -89,7 +89,7 @@ export default function ProvidersCarousel() {
               <img
                 src={provider}
                 alt={`Proveedor ${index + 1}`}
-                className="max-w-full max-h-full object-contain filter grayscale"
+                className="max-w-full max-h-full object-contain"
               />
             </div>
           ))}

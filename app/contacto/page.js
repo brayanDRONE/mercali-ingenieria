@@ -235,6 +235,30 @@ export default function Contacto() {
               </form>
             </div>
           </div>
+
+          {/* Mapa de Ubicación */}
+          <div className="mt-12">
+            <h2 className="text-3xl font-bold text-primary mb-6 text-center">
+              Nuestra Ubicación
+            </h2>
+            <div className="bg-white p-4 rounded-lg shadow-md">
+              <div className="w-full h-96 rounded-lg overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26522.89842279954!2d-70.75238544999999!3d-34.0678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9663f5a0b7b3b3b3%3A0x3b3b3b3b3b3b3b3b!2sGraneros%2C%20O&#39;Higgins%2C%20Chile!5e0!3m2!1ses!2scl!4v1234567890"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Ubicación de Mercali Ingeniería en Graneros, Chile"
+                ></iframe>
+              </div>
+              <div className="mt-4 text-center text-gray-600">
+                <p className="font-semibold">📍 Pedrero Lote A1 Número 06, Graneros, Región de O'Higgins, Chile</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>
