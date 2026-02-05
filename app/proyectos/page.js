@@ -74,7 +74,7 @@ export default function Proyectos() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div className="p-6">
-              <div className="text-4xl font-bold text-primary mb-2">200+</div>
+              <div className="text-4xl font-bold text-primary mb-2">400+</div>
               <p className="text-gray-600">Proyectos Completados</p>
             </div>
             <div className="p-6">
@@ -82,7 +82,7 @@ export default function Proyectos() {
               <p className="text-gray-600">Clientes Activos</p>
             </div>
             <div className="p-6">
-              <div className="text-4xl font-bold text-primary mb-2">15+</div>
+              <div className="text-4xl font-bold text-primary mb-2">5+</div>
               <p className="text-gray-600">Años de Experiencia</p>
             </div>
             <div className="p-6">

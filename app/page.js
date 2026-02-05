@@ -256,7 +256,7 @@ export default function Home() {
                   <div className="flex items-center justify-between">
                     <div className="flex-1">
                       <div className="text-5xl md:text-6xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform duration-300">
-                        5+
+                        5
                       </div>
                       <p className="text-lg font-semibold text-gray-700">Años de Experiencia</p>
                       <p className="text-sm text-gray-600 mt-2">Construyendo soluciones de calidad</p>
@@ -274,7 +274,7 @@ export default function Home() {
                   <div className="flex items-center justify-between">
                     <div className="flex-1">
                       <div className="text-5xl md:text-6xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform duration-300">
-                        100+
+                        400+
                       </div>
                       <p className="text-lg font-semibold text-gray-700">Proyectos Realizados</p>
                       <p className="text-sm text-gray-600 mt-2">Cada uno único y exitoso</p>
