@@ -58,7 +58,7 @@ export default function Footer() {
                 </div>
               </li>
               <li>
-                <strong>Dirección:</strong> Sor Teresa de los Andes 519, Graneros, Chile
+                <strong>Dirección:</strong> Pedrero Lote A1 Número 06, Graneros, Chile
               </li>
             </ul>
           </div>

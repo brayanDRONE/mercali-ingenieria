@@ -97,7 +97,7 @@ export default function Contacto() {
                   </div>
                   <div>
                     <h3 className="font-bold text-primary mb-1">Dirección</h3>
-                    <p className="text-gray-600">Sor Teresa de los Andes 519, Graneros, Chile</p>
+                    <p className="text-gray-600">Pedrero Lote A1 Número 06, Graneros, Chile</p>
                   </div>
                 </div>
 
