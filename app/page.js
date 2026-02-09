@@ -3,11 +3,11 @@ import ProvidersCarousel from './components/ProvidersCarousel'
 
 export const metadata = {
   title: 'Mercali Ingeniería - Soluciones en Ingeniería Eléctrica',
-  description: 'Mercali Ingeniería - Empresa líder en ingeniería eléctrica industrial y comercial en Graneros, Chile. Diseño de sistemas eléctricos, mantenimiento, mediciones, optimización energética y proyectos certificados.',
-  keywords: ['ingeniería eléctrica Chile', 'proyectos eléctricos industriales', 'mantenimiento eléctrico', 'diseño sistemas eléctricos', 'Graneros', 'Región de O\'Higgins'],
+  description: 'Mercali Ingeniería - Empresa líder en ingeniería eléctrica industrial y comercial en La Punta, Chile. Diseño de sistemas eléctricos, mantenimiento, mediciones, optimización energética y proyectos certificados.',
+  keywords: ['ingeniería eléctrica Chile', 'proyectos eléctricos industriales', 'mantenimiento eléctrico', 'diseño sistemas eléctricos', 'La Punta', 'Región de O\'Higgins'],
   openGraph: {
     title: 'Mercali Ingeniería - Soluciones en Ingeniería Eléctrica Industrial',
-    description: 'Empresa líder en ingeniería eléctrica en Graneros, Chile. Diseño, mantenimiento y optimización de sistemas eléctricos.',
+    description: 'Empresa líder en ingeniería eléctrica en La Punta, Chile. Diseño, mantenimiento y optimización de sistemas eléctricos.',
     url: 'https://www.mercaliingenieria.com',
     type: 'website',
   },
@@ -229,14 +229,14 @@ export default function Home() {
               {/* Google Maps Embed */}
               <div className="rounded-xl overflow-hidden shadow-2xl border-4 border-primary/20 hover:border-primary/40 transition-all duration-300 transform hover:scale-105 mt-6">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26522.89842279954!2d-70.75238544999999!3d-34.0678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9663f5a0b7b3b3b3%3A0x3b3b3b3b3b3b3b3b!2sGraneros%2C%20O&#39;Higgins%2C%20Chile!5e0!3m2!1ses!2scl!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3294.7!2d-70.6540833!3d-34.0125278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDAwJzQ1LjEiUyA3MMKwMzknMTQuNyJX!5e0!3m2!1ses!2scl!4v1234567890"
                   width="100%"
-                  height="350"
+                  height="100%"
                   style={{ border: 0 }}
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Ubicación de Mercali Ingeniería en Graneros"
+                  title="Ubicación de Mercali Ingeniería en La Punta"
                   className="grayscale hover:grayscale-0 transition-all duration-500"
                 ></iframe>
               </div>
@@ -249,7 +249,7 @@ export default function Home() {
                   </svg>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Dirección</h3>
-                    <p className="text-gray-600">Pedrero Lote A1 Número 06, Graneros, Chile</p>
+                    <p className="text-gray-600">Pedrero Lote A1 Número 06, La Punta, Chile</p>
                   </div>
                 </div>
               </div>

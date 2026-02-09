@@ -11,8 +11,8 @@ export const metadata = {
     default: 'Mercali Ingeniería - Soluciones en Ingeniería Eléctrica Industrial y Comercial',
     template: '%s | Mercali Ingeniería'
   },
-  description: 'Empresa líder en ingeniería eléctrica en Graneros, Chile. Ofrecemos diseño de sistemas eléctricos, mantenimiento industrial, optimización energética y proyectos eléctricos certificados para empresas.',
-  keywords: ['ingeniería eléctrica', 'proyectos eléctricos', 'mantención eléctrica', 'Graneros', 'Chile', 'sistemas eléctricos industriales', 'optimización energética', 'certificación eléctrica', 'instalaciones eléctricas', 'tableros eléctricos', 'automatización industrial'],
+  description: 'Empresa líder en ingeniería eléctrica en La Punta, Chile. Ofrecemos diseño de sistemas eléctricos, mantenimiento industrial, optimización energética y proyectos eléctricos certificados para empresas.',
+  keywords: ['ingeniería eléctrica', 'proyectos eléctricos', 'mantención eléctrica', 'La Punta', 'Chile', 'sistemas eléctricos industriales', 'optimización energética', 'certificación eléctrica', 'instalaciones eléctricas', 'tableros eléctricos', 'automatización industrial'],
   icons: {
     icon: '/logo_icono.jpeg',
     shortcut: '/logo_icono.jpeg',
@@ -38,7 +38,7 @@ export const metadata = {
     url: 'https://www.mercaliingenieria.com',
     siteName: 'Mercali Ingeniería',
     title: 'Mercali Ingeniería - Soluciones en Ingeniería Eléctrica',
-    description: 'Empresa líder en ingeniería eléctrica en Graneros, Chile. Diseño, mantenimiento y optimización de sistemas eléctricos industriales.',
+    description: 'Empresa líder en ingeniería eléctrica en La Punta, Chile. Diseño, mantenimiento y optimización de sistemas eléctricos industriales.',
     images: [
       {
         url: '/og-image.jpg',
@@ -51,7 +51,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Mercali Ingeniería - Soluciones en Ingeniería Eléctrica',
-    description: 'Empresa líder en ingeniería eléctrica en Graneros, Chile. Diseño, mantenimiento y optimización de sistemas eléctricos.',
+    description: 'Empresa líder en ingeniería eléctrica en La Punta, Chile. Diseño, mantenimiento y optimización de sistemas eléctricos.',
     images: ['/og-image.jpg'],
   },
   alternates: {
@@ -81,7 +81,7 @@ export default function RootLayout({ children }) {
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Pedrero Lote A1 Número 06',
-      addressLocality: 'Graneros',
+      addressLocality: 'La Punta',
       addressRegion: 'Región de O\'Higgins',
       addressCountry: 'CL'
     },

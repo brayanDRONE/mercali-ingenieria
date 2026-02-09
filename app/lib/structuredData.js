@@ -12,7 +12,7 @@ export const serviciosStructuredData = {
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Pedrero Lote A1 Número 06',
-      addressLocality: 'Graneros',
+      addressLocality: 'La Punta',
       addressRegion: 'Región de O\'Higgins',
       addressCountry: 'CL'
     }
@@ -60,11 +60,11 @@ export const localBusinessStructuredData = {
   '@id': 'https://www.mercaliingenieria.com',
   name: 'Mercali Ingeniería',
   image: 'https://www.mercaliingenieria.com/logo.png',
-  description: 'Empresa especializada en ingeniería eléctrica industrial y comercial en Graneros, Chile',
+  description: 'Empresa especializada en ingeniería eléctrica industrial y comercial en La Punta, Chile',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Pedrero Lote A1 Número 06',
-    addressLocality: 'Graneros',
+    addressLocality: 'La Punta',
     addressRegion: 'Región de O\'Higgins',
     postalCode: '2930000',
     addressCountry: 'CL'

@@ -58,7 +58,7 @@ export default function Footer() {
                 </div>
               </li>
               <li>
-                <strong>Dirección:</strong> Pedrero Lote A1 Número 06, Graneros, Chile
+                <strong>Dirección:</strong> Pedrero Lote A1 Número 06, La Punta, Chile
               </li>
             </ul>
           </div>

@@ -2,11 +2,11 @@ import ContactForm from './ContactForm'
 
 export const metadata = {
   title: 'Contacto - Cotiza tu Proyecto Eléctrico',
-  description: 'Contáctanos para cotizar tu proyecto eléctrico. Ubicados en Pedrero Lote A1 Número 06, Graneros, Chile. Tel: +56 9 99824057. Respuesta rápida y profesional.',
-  keywords: ['contacto ingeniería eléctrica', 'cotización proyectos eléctricos', 'Graneros Chile', 'mercali contacto'],
+  description: 'Contáctanos para cotizar tu proyecto eléctrico. Ubicados en Pedrero Lote A1 Número 06, La Punta, Chile. Tel: +56 9 99824057. Respuesta rápida y profesional.',
+  keywords: ['contacto ingeniería eléctrica', 'cotización proyectos eléctricos', 'La Punta Chile', 'mercali contacto'],
   openGraph: {
     title: 'Contacto | Mercali Ingeniería',
-    description: 'Contáctanos para cotizar tu proyecto eléctrico en Graneros, Chile.',
+    description: 'Contáctanos para cotizar tu proyecto eléctrico en La Punta, Chile.',
     url: 'https://www.mercaliingenieria.com/contacto',
     type: 'website',
   },
@@ -91,7 +91,7 @@ export default function Contacto() {
                   </div>
                   <div>
                     <h3 className="font-bold text-primary mb-1">Dirección</h3>
-                    <p className="text-gray-600">Pedrero Lote A1 Número 06, Graneros, Chile</p>
+                    <p className="text-gray-600">Pedrero Lote A1 Número 06, La Punta, Chile</p>
                   </div>
                 </div>
 
@@ -134,18 +134,18 @@ export default function Contacto() {
             <div className="bg-white p-4 rounded-lg shadow-md">
               <div className="w-full h-96 rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26522.89842279954!2d-70.75238544999999!3d-34.0678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9663f5a0b7b3b3b3%3A0x3b3b3b3b3b3b3b3b!2sGraneros%2C%20O&#39;Higgins%2C%20Chile!5e0!3m2!1ses!2scl!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3294.7!2d-70.6540833!3d-34.0125278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDAwJzQ1LjEiUyA3MMKwMzknMTQuNyJX!5e0!3m2!1ses!2scl!4v1234567890"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Ubicación de Mercali Ingeniería en Graneros, Chile"
+                  title="Ubicación de Mercali Ingeniería en La Punta, Chile"
                 ></iframe>
               </div>
               <div className="mt-4 text-center text-gray-600">
-                <p className="font-semibold">📍 Pedrero Lote A1 Número 06, Graneros, Región de O'Higgins, Chile</p>
+                <p className="font-semibold">📍 Pedrero Lote A1 Número 06, La Punta, Región de O'Higgins, Chile</p>
               </div>
             </div>
           </div>
