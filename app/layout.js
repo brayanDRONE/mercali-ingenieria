@@ -41,7 +41,7 @@ export const metadata = {
     description: 'Empresa líder en ingeniería eléctrica en La Punta, Chile. Diseño, mantenimiento y optimización de sistemas eléctricos industriales.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/logo_variante.jpeg',
         width: 1200,
         height: 630,
         alt: 'Mercali Ingeniería - Expertos en Sistemas Eléctricos',
@@ -52,7 +52,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Mercali Ingeniería - Soluciones en Ingeniería Eléctrica',
     description: 'Empresa líder en ingeniería eléctrica en La Punta, Chile. Diseño, mantenimiento y optimización de sistemas eléctricos.',
-    images: ['/og-image.jpg'],
+    images: ['/logo_variante.jpeg'],
   },
   alternates: {
     canonical: 'https://www.mercaliingenieria.com',
@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
     name: 'Mercali Ingeniería',
     description: 'Empresa especializada en ingeniería eléctrica industrial y comercial',
     url: 'https://www.mercaliingenieria.com',
-    logo: 'https://www.mercaliingenieria.com/logo.png',
+    logo: 'https://www.mercaliingenieria.com/logo_footer.jpeg',
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '+56-9-99824057',
@@ -96,7 +96,7 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <head>
         <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo_icono.jpeg" />
         <meta name="theme-color" content="#003d82" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />

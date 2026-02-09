@@ -59,7 +59,7 @@ export const localBusinessStructuredData = {
   '@type': 'LocalBusiness',
   '@id': 'https://www.mercaliingenieria.com',
   name: 'Mercali Ingeniería',
-  image: 'https://www.mercaliingenieria.com/logo.png',
+  image: 'https://www.mercaliingenieria.com/logo_footer.jpeg',
   description: 'Empresa especializada en ingeniería eléctrica industrial y comercial en La Punta, Chile',
   address: {
     '@type': 'PostalAddress',
