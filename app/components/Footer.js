@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Footer() {
   return (
@@ -8,10 +9,19 @@ export default function Footer() {
           {/* Columna 1: Sobre la empresa */}
           <div>
             <h3 className="text-xl font-bold mb-4">Mercali Ingeniería</h3>
-            <p className="text-gray-300 text-sm">
+            <p className="text-gray-300 text-sm mb-6">
               Empresa especializada en soluciones integrales de ingeniería eléctrica 
               para el sector industrial y comercial.
             </p>
+            <div className="mt-6">
+              <Image 
+                src="/logo_footer2.jpeg" 
+                alt="Logo Mercali Ingeniería" 
+                width={250} 
+                height={125}
+                className="object-contain"
+              />
+            </div>
           </div>
 
           {/* Columna 2: Enlaces */}
