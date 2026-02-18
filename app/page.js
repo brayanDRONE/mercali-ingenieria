@@ -76,7 +76,7 @@ export default function Home() {
               Soluciones en Ingeniería Eléctrica
             </h1>
             <p className="text-xl text-white max-w-3xl text-center">
-              Innovación y excelencia en cada proyecto
+              Calidad y excelencia en cada proyecto
             </p>
           </div>
         </div>
